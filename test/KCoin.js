@@ -1,4 +1,4 @@
-const KCoin = artifacts.require("./KCoin.sol");
+var KCoin = artifacts.require("./KCoin.sol");
 
 contract("KCoin", function (accounts) {
   var tokenInstance;

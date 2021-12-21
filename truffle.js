@@ -6,4 +6,9 @@ module.exports = {
       network_id: "*", //match any network id
     },
   },
+  compilers: {
+    solc: {
+      version: "^0.8.0"
+    }
+  }
 };
